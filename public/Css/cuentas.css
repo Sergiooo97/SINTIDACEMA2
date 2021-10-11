@@ -1,0 +1,47 @@
+.correo {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.contrasenia {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1px;
+}
+
+.apellido {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1px;
+}
+
+.Telefono {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1px;
+}
+
+.Nombre {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1px;
+}
+#actualizar {
+    background: rgb(131, 130, 130);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.836), 0 2px 10px 0 rgba(0, 0, 0, 0.877);
+}
+
+#actualizar:hover {
+    box-shadow: 6px 6px 50px #000000;
+}
+
+.guardar {
+    background: rgba(0, 0, 0, 0.767);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.guardar:Hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 50px #ffffff;
+}

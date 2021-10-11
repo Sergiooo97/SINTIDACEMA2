@@ -1,0 +1,170 @@
+:root {
+    --color-bg-btn: #0062cc;
+    --color-bg-btn-hover: #0062aa;
+    --color-shadow-btn-active: rgba(0, 0, 0, .3);
+    --color-border-field: rgb(200, 200, 200);
+}
+
+th, td {
+    padding: 0.4rem !important;
+}
+
+th {
+    background: black;
+    color: white;
+}
+
+td {
+    background: white;
+    color: black;
+}
+
+.editar {
+    color: black;
+}
+
+.editar:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#actualizar {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.836), 0 2px 10px 0 rgba(0, 0, 0, 0.877);
+}
+
+#actualizar:hover {
+    box-shadow: 6px 6px 50px #000000;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+#tituloeditar {
+    color: black;
+    font-weight: bold;
+}
+
+.modal-body {
+    color: black;
+}
+
+.modal-title {
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-tela-blanca-textura-arrugado-tela-blanca-abstracta_3236-475.jpg);
+    background-repeat: unset;
+    background-size: cover;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+hr {
+    background: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+}
+
+.btn {
+    background: rgba(39, 39, 39, 0.767);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.btn-ver {
+    background: rgba(4, 0, 252, 0.884);
+    color: white;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.dropdown-item {
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.modal-body {
+    color: black;
+}
+
+.modal-title {
+    color: black;
+    font-weight: bold;
+}
+
+.subir {
+    background: rgba(0, 4, 255, 0.678);
+    color: black;
+}
+
+.subir:hover {
+    background: rgba(0, 4, 255, 0.678);
+    color: black;
+}
+
+#mensaje {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    animation-timing-function: initial;
+    transition: 0.3s;
+}
+
+.form-control {
+    background: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid rgba(224, 20, 20, 0.473);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    box-shadow: none;
+    text-align: justify;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.form-control:hover, .form-control:active {
+    box-shadow: 6px 6px 50px rgba(254, 20, 20, 0.466);
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.form-control:focus {
+    background: none;
+    color: rgba(0, 17, 255, 0.836);
+    font-weight: bold;
+}
+
+.form-control::placeholder {
+    color: rgb(95, 95, 95);
+    font-weight: normal;
+}
+.txtnombre{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.editbtn{
+    background: none;
+}
