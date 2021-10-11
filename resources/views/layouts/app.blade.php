@@ -19,6 +19,8 @@
     <link href="{{ asset('css/paper-dashboard.css?v=2.0.1') }}" rel="stylesheet" />
     <link href="{{ asset('demo/demo.css') }}" rel="stylesheet" />
 
+    
+
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <style>
 
@@ -46,7 +48,7 @@
     <div style="background: rgb(224, 20, 20) !important;" class="sidebar-wrapper">
         <ul class="nav">
             <li class="active ">
-                <a href="./dashboard.html">
+                <a href="{{url('/')}}">
                     <i class="nc-icon nc-bank"></i>
                     <p>Inicio</p>
                 </a>
@@ -99,14 +101,14 @@
                             <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{Auth::user()->name}}</span>
-                                <img width="50px" class="img-profile rounded-circle" src="{{ asset('img/yo2.jpg') }}">
+                                <img width="50px" class="img-profile rounded-circle" src="{{ \Illuminate\Support\Facades\Storage::url("".Auth::user()->img) }}">
                                 <p>
                                     <span class="d-lg-none d-md-block">Some Actions</span>
                                 </p>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="{{ route('home') }}">Inicio</a>
-                                <a class="dropdown-item" href{{ route('admin.perfil') }}">Perfil</a>
+                                <a class="dropdown-item" href="{{ route('admin.perfil') }}">Perfil</a>
                                 <a class="dropdown-item" href="{{ route('logout') }}">Cerrar sesion</a>
                             </div>
                         </li>
@@ -129,16 +131,15 @@
                 <div class="row">
                     <nav class="footer-nav">
                         <ul>
-                            <li><a href="https://www.creative-tim.com" target="_blank">Creative Tim</a></li>
-                            <li><a href="https://www.creative-tim.com/blog" target="_blank">Blog</a></li>
-                            <li><a href="https://www.creative-tim.com/license" target="_blank">Licenses</a></li>
+                            <li><a href="" target="_blank">SISTINDACEMA</a></li>
+                           
                         </ul>
                     </nav>
                     <div class="credits ml-auto">
                         <span class="copyright">
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+                            </script>, made with <i class="fa fa-heart heart"></i> by SISTINDACEMA
                         </span>
                     </div>
                 </div>

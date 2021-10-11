@@ -15,7 +15,7 @@ use Maatwebsite\Excel\Facades\Excel;
 */
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout')->name('logout');
 Route::get('/', function () {
-    return view('auth.login');
+    return view('home');
 });
 
 Auth::routes();
@@ -23,6 +23,8 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/perfil', [App\Http\Controllers\adminController::class, 'index'])->name('admin.perfil');
+Route::patch('/perfil/img', [App\Http\Controllers\adminController::class, 'img'])->name('img.perfil');
+Route::patch('/perfil/u', [App\Http\Controllers\adminController::class, 'update'])->name('update.perfil');
 
 Route::get('/almacen', [App\Http\Controllers\almacenController::class, 'index'])->name('almacen.index');
 Route::get('/almacen/create', [App\Http\Controllers\almacenController::class, 'create'])->name('almacen.create');

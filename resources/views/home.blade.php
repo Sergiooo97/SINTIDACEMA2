@@ -67,7 +67,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="{{ route('home')}}">Inicio</a>
-                            <a class="dropdown-item" href{{ route('admin.perfil')}}">Perfil</a>
+                            <a class="dropdown-item" href="{{ route('admin.perfil') }}">Perfil</a>
                             <a class="dropdown-item" href="{{ route('logout')}}" >Cerrar sesion</a>
 
                         </div>
